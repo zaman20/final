@@ -41,6 +41,10 @@ class AppController extends Controller
         return view('add-rent');
 
     }
+    public function interest(){
+        return view('buyer-interest');
+
+    }
     public function addRent(Request $request){
         $buyer_name =$request->has('buyer_name')?$request->get('buyer_name'):'';
         $buyer_phone = $request->has('buyer_phone')?$request->get('buyer_phone'):'';

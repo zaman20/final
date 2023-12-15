@@ -27,3 +27,4 @@ Route::get('/new-sell', [AppController::class, 'newSell']);
 Route::post('/add-sell', [AppController::class, 'addSell']);
 Route::get('/new-appointment', [AppController::class, 'newApt']);
 Route::post('/add-appointment', [AppController::class, 'addApt']);
+Route::get('/interest', [AppController::class, 'interest']);
